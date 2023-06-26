@@ -1,0 +1,12 @@
+tensorflow
+jupyter
+numpy
+scipy
+scikit-learn
+matplotlib
+pandas
+openpyxl
+urllib3
+tqdm
+ipympl
+gymnasium[toy-text]

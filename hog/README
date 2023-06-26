@@ -1,0 +1,30 @@
+Install the package with
+
+	python setup.py install
+
+Then use it
+
+	import hog
+	hog.extract(image, ...)
+
+The file `HoG.cpp` includes the HOG implementation.
+In `hogpy.cpp` is a skeleton for a Python module written in C++.
+The module is called hogpy. You should implement the wrapper
+function `hogpy_hog` in `hogpy.cpp` and the Python function
+`extract` in `hog.py` (here you can do high level preparations
+or error checking).
+
+Make sure that the data layout of the NumPy input
+does match the expected data layout of the C++ implementation.
+Things you must care for:
+
+- Is the input stored row or column major?
+- Is the input strided?
+- Is the input of the correct datatype?
+- Is the input of the correct dimension?
+
+References to learn how to write the extension:
+
+- Python documnetation https://docs.python.org/3/extending/
+- NumPy documentation https://docs.scipy.org/doc/numpy/user/c-info.html
+
