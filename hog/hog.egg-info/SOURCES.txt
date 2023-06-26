@@ -1,8 +1,0 @@
-README
-hog.py
-hogpy.cpp
-setup.py
-hog.egg-info/PKG-INFO
-hog.egg-info/SOURCES.txt
-hog.egg-info/dependency_links.txt
-hog.egg-info/top_level.txt
