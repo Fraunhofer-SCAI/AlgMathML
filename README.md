@@ -27,5 +27,6 @@ you are running a Linux-based operating system - in the case of different operat
 If the above fails, try to use "requirements_w_version.txt" instead in step 5.
 
 
+You can find examplary images depicting solutions to certain tasks in the folder [solution_example_pictures](solution_example_pictures)
 
 In case you are a lecturer and you are interested in reference solutions to these tasks, please contact us at bohn@ins.uni-bonn.de.
