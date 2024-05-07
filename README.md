@@ -1,6 +1,6 @@
 # AlgMathML
 
-This repository contains the template notebooks and data sets for the tasks from the text book "Algorithmic Mathematics in Machine Learning" by Bastian Bohn, Jochen Garcke and Michael Griebel.
+This repository contains the template notebooks and data sets for the tasks from the text book [Algorithmic Mathematics in Machine Learning](https://epubs.siam.org/doi/10.1137/1.9781611977882) by Bastian Bohn, Jochen Garcke and Michael Griebel.
 
 How to install jupyter-notebooks and get the necessary python packages (assuming
 you are running a Linux-based operating system - in the case of different operating systems please check https://docs.python.org/3/library/venv.html to see how to set up a virtual environment appropriately):
